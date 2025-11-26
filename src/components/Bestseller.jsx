@@ -37,11 +37,10 @@ export default function Bestseller() {
   if (!bestsellerProducts.length) return null;
 
   return (
-    <section
-      ref={sectionRef}
-      className="relative w-full px-4 sm:px-6 lg:px-12 xl:px-16 2xl:px-24 mb-20"
-    >
-      {/* Decorative Background */}
+   <section
+  ref={sectionRef}
+  className="relative w-full px-4 sm:px-6 lg:px-12 xl:px-16 2xl:px-24 mb-20 max-w-7xl mx-auto"
+>  {/* Decorative Background */}
       <div className="absolute top-0 left-0 w-40 h-40 sm:w-60 sm:h-60 lg:w-72 lg:h-72 bg-gradient-to-br from-yellow-100 to-orange-100 rounded-full opacity-20 blur-3xl -z-10"></div>
       <div className="absolute bottom-0 right-0 w-48 h-48 sm:w-72 sm:h-72 lg:w-96 lg:h-96 bg-gradient-to-br from-blue-100 to-purple-100 rounded-full opacity-20 blur-3xl -z-10"></div>
 
