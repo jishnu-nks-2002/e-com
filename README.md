@@ -193,7 +193,7 @@ Comprehensive coverage:
 ## 🎨 Design Choices
 
 ### Visual Design
-- **Color Palette**: Modern gradient with primary orange accent (#ff6b35)
+- **Color Palette**: Modern gradient 
 - **Typography**: System font stack for optimal performance
 - **Layout**: Card-based design with consistent spacing
 - **Imagery**: Product images with hover zoom effects
@@ -252,30 +252,6 @@ The application has been thoroughly tested for:
 5. **No Database**: All state resets on page refresh (except auth)
 6. **localStorage**: Authentication persists but product changes don't
 
-## 🔮 Future Enhancements
-
-### Planned Features
-- [ ] Shopping cart functionality
-- [ ] Search and filter products by category
-- [ ] Product sorting (price, name, date)
-- [ ] Pagination for better performance
-- [ ] User profiles and order history
-- [ ] Product reviews and ratings
-- [ ] Wishlist functionality
-- [ ] Real backend integration with database
-- [ ] Image upload with cloud storage
-- [ ] Payment gateway integration
-
-### Technical Improvements
-- [ ] Unit tests with Jest and React Testing Library
-- [ ] E2E tests with Cypress or Playwright
-- [ ] Performance optimization with React.memo
-- [ ] PWA capabilities for offline support
-- [ ] Dark mode toggle
-- [ ] Internationalization (i18n)
-- [ ] Analytics integration
-- [ ] Error boundary implementation
-
 ## 📝 API Reference
 
 This project uses the [Fake Store API](https://fakestoreapi.com/):
@@ -288,29 +264,6 @@ This project uses the [Fake Store API](https://fakestoreapi.com/):
 | `/products/:id` | PUT | Update product (mock) |
 | `/products/:id` | DELETE | Delete product (mock) |
 
-**Note**: POST, PUT, and DELETE operations are simulated. Changes are managed client-side.
-
-## 🚀 Deployment
-
-This application is deployed using **GitHub Pages**.
-
-### Deployment Configuration
-The `package.json` includes:
-```json
-{
-  "homepage": "https://jishnu-nks-2002.github.io/e-com",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  }
-}
-```
-
-### Deploy Your Own Version
-1. Fork this repository
-2. Update the `homepage` in `package.json`
-3. Run `npm run deploy`
-4. Enable GitHub Pages in repository settings
 
 ## 👤 Author
 
@@ -318,10 +271,6 @@ The `package.json` includes:
 
 - GitHub: [@jishnu-nks-2002](https://github.com/jishnu-nks-2002)
 - Repository: [e-com](https://github.com/jishnu-nks-2002/e-com)
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgments
 
