@@ -199,9 +199,9 @@ export default function Banner() {
   const currentSlide = slides[activeSlide];
 
   return (
-    <div
+  <div
   ref={bannerRef}
-  className="relative bg-white rounded-lg overflow-hidden mb-8 sm:mb-10 md:mb-12 shadow-lg border border-gray-200 mx-4 sm:mx-6 lg:mx-8 max-w-7xl"
+  className="relative bg-white overflow-hidden mb-8 sm:mb-10 md:mb-12 shadow-lg border-t border-b border-gray-200 w-full"
 >
       {/* Gradient Background */}
       <div className={`absolute inset-0 bg-gradient-to-r ${currentSlide.bgColor} opacity-10 transition-all duration-1000`}></div>

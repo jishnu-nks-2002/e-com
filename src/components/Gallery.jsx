@@ -57,7 +57,7 @@ export default function Gallery() {
     if (!isAutoPlaying) return;
 
     const interval = setInterval(() => {
-      nextSlide();
+     
     }, 5000);
 
     return () => clearInterval(interval);

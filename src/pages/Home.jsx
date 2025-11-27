@@ -8,6 +8,7 @@ import Bestseller from "../components/Bestseller";
 import Gallery from "../components/Gallery";
 import Footer from "../components/Footer";
 import gsap from "gsap";
+import CustomCursor from "../components/CustomCursor";
 
 export default function Home() {
   const { products, loading, error } = useProductsState();
@@ -63,9 +64,10 @@ export default function Home() {
   if (error) return <ErrorBox message={error} />;
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50 overflow-x-hidden">
+    <div className="min-h-screen flex flex-col bg-gray-50 overflow-x-hidden ">
+      <CustomCursor/>
       {/* Main Content */}
-      <main className="flex-grow ">
+      <main className="flex-grow  ">
         {/* 1. Banner Section */}
         <Banner />
 
